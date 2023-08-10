@@ -1,0 +1,268 @@
+body
+{
+  overflow-x: hidden;
+}
+
+.topnav {
+  height:5rem;
+  overflow: hidden;
+  background-color:white;
+  display: block;
+  border-bottom:rgb(6, 6, 20)3px solid ;
+  position:fixed;
+  width:100%;
+  z-index:1;
+  text-align: center;
+}
+
+.topnav>a
+{
+  margin:1rem;
+  padding:2px;
+  top:1rem;
+  position: relative;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200px;
+}
+
+.column 
+{
+  padding: 7rem;
+  margin-top: 30px;
+  float: left;
+  width: 50%;
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.heading 
+{
+  font-weight:650;
+  color:white;
+}
+
+.main
+{
+  color: rgb(6, 6, 20);
+}
+
+.sub
+{
+  color:white;
+  font-weight:650;
+}
+
+.highlight
+{
+ color:orange
+}
+
+.desc-regular
+{
+  line-height:1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color:grey;
+  font-weight: 500;
+}
+
+.desc-sub
+{
+  color:rgb(233, 233, 233);
+  margin-top: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.blue-button
+{
+  position: relative;
+  top: 2rem;
+  width:5rem;
+  border:solid rgb(6, 6, 20) ;
+  color:rgb(6, 6, 20);
+  border-radius: 1rem;
+  padding:1rem;
+  background-color:white
+}
+
+.left
+{
+ background-color:rgb(6, 6, 20);
+} 
+
+.right
+{
+  padding:0;
+}
+
+.right>img
+{
+   margin-left:7rem;
+}
+
+.desc-small
+{
+ text-align:center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: small;
+}
+
+.desc-medium
+{
+  margin-top: 1rem;
+ text-align:center;
+ color:rgb(137, 137, 137);
+font-family: Arial, Helvetica, sans-serif;
+font-size:medium;
+text-align: center;
+}
+
+.form-check
+{
+  margin-top:2rem;
+  text-align: center;
+}
+
+label
+{
+ font-weight:bold;
+ color: rgb(6, 10, 29);
+}
+
+.w-input
+{
+ width:30rem;
+ height:2.5rem;
+ border:0.5px solid rgb(200, 197, 197);
+}
+
+.formrecaptcha
+{
+ margin-top:1rem;
+ margin-bottom: 1rem;
+ position: relative;
+ text-align: center;
+}
+
+.submit-button
+{
+  background-color:rgb(89, 185, 237) ;
+  width:10rem;
+  border: 0px;
+  padding:0.5rem;
+  border-radius: 5px;
+}
+
+.container
+{
+  margin-top:5rem;
+  text-align: center;
+}
+
+.card
+{
+  float:left;
+  width:30%;
+  height:15rem;
+  margin:1rem;
+  padding: 1rem;
+  border-radius:1px;
+}
+
+.card:hover
+{
+  box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+  position: relative;
+  top:1rem;
+
+}
+
+.left2
+{
+  position: relative;
+  padding:12rem
+}
+
+.form-contact
+{
+  background-color:rgb(6, 6, 20) ;
+  border-radius: 2rem;
+  padding:5rem
+}
+
+.col
+{
+  float: left;
+  width: 50%;
+  padding:10rem
+}
+
+.form-beta
+{
+  background-color: white;
+  padding:2rem;
+  border-radius: 2rem;
+}
+
+.d-input
+{
+  width:20rem;
+  padding:2rem;
+  margin-top:1rem;
+  margin-bottom:2rem;
+  height:3rem;
+  border-radius: 1rem;
+  border:0.5px solid rgb(200, 197, 197);
+}
+
+.navy
+{
+  background-color:rgb(6, 6, 20);
+  color:white;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 900px) 
+{
+  .column {
+    width: 100%;
+  }
+
+  .card
+  {
+    width:100%;
+  }
+
+  .col
+  {
+    width:100%;
+  }
+
+  .left
+  {
+    background-color: white;
+  }
+
+  .right>img
+  {
+    display: none;
+  }
+
+  .heading 
+  {
+    color: rgb(6, 6, 20);
+  }
+
+  .blue-button
+  {
+    background-color:rgb(6, 6, 20) ;
+    color:white;
+  }
+}
